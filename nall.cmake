@@ -3,6 +3,7 @@ include(FetchContent)
 function(getNall)
     FetchContent_Declare(nall
             GIT_REPOSITORY  https://github.com/ProtoByter/nall
+            GIT_TAG         main
             GIT_SHALLOW     TRUE
             SOURCE_DIR      ${CMAKE_BINARY_DIR}/nall-src
             )
