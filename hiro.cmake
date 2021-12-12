@@ -3,6 +3,7 @@ include(FetchContent)
 function(getHiro)
     FetchContent_Declare(hiro
             GIT_REPOSITORY  https://github.com/ProtoByter/hiro
+            GIT_TAG         main
             GIT_SHALLOW     TRUE
             SOURCE_DIR      ${CMAKE_BINARY_DIR}/hiro-src
             )
